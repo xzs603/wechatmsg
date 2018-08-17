@@ -28,8 +28,8 @@ class Handle(object):
                 return echostr
             else:
                 return echostr #此处本应返回空串，此处不做校验
-        except (Exception, Argument):
-            return Argument
+        except Exception as e:
+            print('Exception:', e)
 			
     def POST(self):
         try:
@@ -46,5 +46,5 @@ class Handle(object):
             else:
                 print ("do nothing right now")
                 return "success"
-        except(Exception, Argument):
-            return Argment
+        except Exception as e:
+            print('Exception:', e)
