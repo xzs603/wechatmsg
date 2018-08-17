@@ -1,5 +1,6 @@
 ﻿# -*- coding: utf-8 -*-
 # filename: handle.py
+# update at 2018-08-17 22:25:41
 import hashlib
 import reply
 import receive
